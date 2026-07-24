@@ -356,15 +356,6 @@ http://localhost:3000
 
 ---
 
-## 📸 Screenshots & Demo
-
-> Placeholder section for product screenshots and API workflow demos.
-
-- Dashboard / Admin Overview
-- Property Creation Flow
-- Booking Checkout Flow
-- Review Submission Flow
-
 <div align="center">
   <img src="https://via.placeholder.com/800x220.png?text=Screenshot+Placeholder" alt="Screenshot Placeholder" />
 </div>
