@@ -94,32 +94,7 @@ cd full-stack-booking-clone
 npm install
 ```
 
-### 3. Configure environment variables
-
-Create or update the `config.env` file with the required values:
-
-```env
-DATABASE=your_mongodb_connection_string
-DATABASE_PASSWORD=your_database_password
-PORT=3000
-JWT_SECRET_KEY=your_jwt_secret
-JWT_SECRET_KEY_EXPIRES_IN=90d
-ORIGIN=http://localhost:5173
-SMTP_USER=apikey
-EMAIL_FROM=your_email
-SENDGRID_PASSWORD=your_sendgrid_password
-COOKIE_EXPIRES_IN=90
-GOOGLE_CLIENT_ID=your_google_client_id
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-STRIPE_PUBLIC_KEY=your_stripe_public_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET_KEY=your_stripe_webhook_secret
-OTP_EXPIRES=5
-PASSWORD_RESET_EXPIRES=5
-BCRYPT_ROUNDS=12
-```
+s
 
 > Replace the placeholder values with your actual credentials before running the app.
 
