@@ -256,11 +256,6 @@ This structure keeps the API maintainable and extensible for future frontend int
 - Secure image uploads through Cloudinary
 - Password hashing with bcrypt
 
----
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x220.png?text=Screenshot+Placeholder" alt="Screenshot Placeholder" />
-</div>
 
 ---
 
