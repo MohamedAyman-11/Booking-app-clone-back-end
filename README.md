@@ -1,10 +1,6 @@
 # Full-Stack Booking Clone API
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x320.png?text=Booking+Platform+API" alt="Booking Platform API Banner" />
-</div>
-
-<div align="center">
   <img src="https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&style=for-the-badge" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express.js-5.x-000000?logo=express&style=for-the-badge" alt="Express" />
   <img src="https://img.shields.io/badge/MongoDB-Atlas%20%2F%20Local-47A248?logo=mongodb&style=for-the-badge" alt="MongoDB" />
@@ -21,29 +17,6 @@
 
 ---
 
-## 📚 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Folder Structure](#-folder-structure)
-- [Environment Variables](#-environment-variables)
-- [Installation](#-installation)
-- [Available Scripts](#-available-scripts)
-- [Running Locally](#-running-locally)
-- [REST API Overview](#-rest-api-overview)
-- [Authentication Flow](#-authentication-flow)
-- [Booking Flow](#-booking-flow)
-- [Property Moderation Flow](#-property-moderation-flow)
-- [Payment Flow](#-payment-flow)
-- [Security Features](#-security-features)
-- [Future Improvements](#-future-improvements)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
-
----
 
 ## 🌐 Overview
 
@@ -191,77 +164,6 @@ This structure keeps the API maintainable and extensible for future frontend int
 └── config.env
 ```
 
----
-
-## ⚙️ Environment Variables
-
-| Variable                    | Purpose                                    |
-| --------------------------- | ------------------------------------------ |
-| `DATABASE`                  | MongoDB connection string                  |
-| `DATABASE_PASSWORD`         | Password for the MongoDB connection        |
-| `PORT`                      | Server port                                |
-| `JWT_SECRET_KEY`            | Secret key for JWT generation              |
-| `JWT_SECRET_KEY_EXPIRES_IN` | JWT expiration duration                    |
-| `ORIGIN`                    | Allowed frontend origin                    |
-| `SMTP_USER`                 | SMTP username for email delivery           |
-| `EMAIL_FROM`                | Sender email address                       |
-| `SENDGRID_PASSWORD`         | SendGrid password / API key                |
-| `COOKIE_EXPIRES_IN`         | JWT cookie lifetime in days                |
-| `GOOGLE_CLIENT_ID`          | Google OAuth client ID                     |
-| `CLOUDINARY_CLOUD_NAME`     | Cloudinary account name                    |
-| `CLOUDINARY_API_KEY`        | Cloudinary API key                         |
-| `CLOUDINARY_API_SECRET`     | Cloudinary API secret                      |
-| `STRIPE_PUBLIC_KEY`         | Stripe public key                          |
-| `STRIPE_SECRET_KEY`         | Stripe secret key                          |
-| `STRIPE_WEBHOOK_SECRET_KEY` | Stripe webhook verification secret         |
-| `OTP_EXPIRES`               | OTP expiration window in minutes           |
-| `PASSWORD_RESET_EXPIRES`    | Password reset token expiration in minutes |
-| `BCRYPT_ROUNDS`             | Password hashing cost factor               |
-
----
-
-## 🚀 Installation
-
-### Prerequisites
-
-- Node.js 18+
-- MongoDB instance (local or Atlas)
-- Cloudinary account
-- Stripe account
-- SendGrid or SMTP access
-
-### Steps
-
-```bash
-git clone <your-repo-url>
-cd full-stack-booking-clone
-npm install
-```
-
-Create a `config.env` file and populate it using the variables above.
-
----
-
-## ▶️ Available Scripts
-
-| Script           | Command              | Purpose                           |
-| ---------------- | -------------------- | --------------------------------- |
-| Development      | `npm start`          | Starts the server with nodemon    |
-| Production-style | `npm run start:prod` | Starts the app in production mode |
-
----
-
-## 🧪 Running Locally
-
-```bash
-npm start
-```
-
-The application will run on:
-
-```text
-http://localhost:3000
-```
 
 ---
 
@@ -380,33 +282,25 @@ http://localhost:3000
 - Expand property search and recommendation logic
 
 ---
+<p align="center">
+  
+<a href="https://wa.me/201030781453">
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>&nbsp;&nbsp;
 
-## 🤝 Contributing
+<a href="https://www.facebook.com/mohamedayman.tech/">
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+</a>&nbsp;&nbsp;
 
-Contributions are welcome.
+<a href="https://linkedin.com/in/mohamedayman-dev">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-in&logoColor=white"/>
+</a>&nbsp;&nbsp;
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run the local server and verify behavior
-5. Submit a pull request with a clear summary
+<a href="mailto:master.mohamed.ayman@email.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
-Please keep the codebase clean, documented, and consistent with the existing architecture.
-
----
-
-## 📄 License
-
-This project is licensed under the ISC License.
-
----
-
-## 👤 Author
-
-- Name: Mohamed Ayman
-- Email: mhmd.ayman.0101@gmail.com
-- GitHub: @your-github-username
-- LinkedIn: linkedin.com/in/your-profile
+</p>
 
 ---
 
