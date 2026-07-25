@@ -263,8 +263,7 @@ This structure keeps the API maintainable and extensible for future frontend int
 
 - API Documentation: `TODO: Add Swagger/OpenAPI docs`
 - Postman Collection: `TODO: Add Postman workspace`
-- ER Diagram: `TODO: Add database schema diagram`
-
+  
 ---
 
 ## 🔮 Future Improvements
