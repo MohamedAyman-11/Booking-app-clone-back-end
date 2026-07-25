@@ -261,7 +261,6 @@ This structure keeps the API maintainable and extensible for future frontend int
 
 ## 🧩 API Docs & Tooling
 
-- API Documentation: `TODO: Add Swagger/OpenAPI docs`
 - Postman Collection: `TODO: Add Postman workspace`
   
 ---
