@@ -257,11 +257,6 @@ This structure keeps the API maintainable and extensible for future frontend int
 - Password hashing with bcrypt
 
 
----
-
-## 🧩 API Docs & Tooling
-
-- Postman Collection: `TODO: Add Postman workspace`
   
 ---
 
